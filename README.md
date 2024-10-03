@@ -1,6 +1,31 @@
 # aws-with-python-talk
 
-How to
+## Demos
+
+Demos are:
+- hello_world.py
+    - this expects you have ran aws configure
+- s3.py
+    - a file name `sample.txt`
+- ec2.py
+    - this needs an EC2 key pair
+- lambda.py
+    - this needs an IAM role
+
+# Challenges
+
+The challenges are under `challenges/`.
+
+e.g. 
+
+```
+- challenge1/
+ |- README.md - description of what to do
+ |- solution/
+  -|
+   |- README.md - walk through of challenge
+   |- *Solution
+```
 
 ## Set up your virutal environment
 
@@ -24,7 +49,7 @@ source venv/bin/activate
 # 4. Install dependencies
 pip install -r requirements.txt
 
-# 5. Deactivate the virutal enviroxnment
+# 5. Once finished, deactivate the virutal enviroxnment
 deactivate
 
 ```
